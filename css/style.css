@@ -1,0 +1,632 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Archivo+Black&family=Beau+Rivage&family=Courgette&family=Grape+Nuts&family=Great+Vibes&family=Karla:ital,wght@1,200&family=Martel:wght@200&family=Montserrat&family=Nanum+Myeongjo&family=Patua+One&family=Sacramento&family=Satisfy&family=Space+Mono&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.blog {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 6rem;
+}
+
+.blog1 {
+    background-image: url(../img/1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 60vh;
+    width: 100%;
+}
+
+.text h1 {
+    font-size: 43px;
+    color: white;
+
+}
+
+.text p {
+    color: white;
+    font-size: 15px;
+}
+
+.blog2 {
+    background-color: #FEFEC9;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.btn{
+    padding-top: 40px;
+    
+
+
+  
+
+}
+.btn button{
+    padding: 10px 60px;
+    border: 1px  solid #000000;
+    background: transparent;
+    border-radius: 8px ;
+}
+
+.text1 {
+    padding: 0 35rem;
+    font-size: 18px;
+    color: #47474F;
+
+}
+
+
+
+
+.pic1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    color:
+        #333333;
+    font-size: 23px;
+}
+
+.pic1 h1 {
+    color:
+        #333333;
+}
+
+.pic1 p {
+    display: flex;
+    padding: 0 8rem;
+    font-size: 16px;
+}
+
+
+.blog4 {
+    background-color: #F5F5F5;
+    padding-bottom: 2rem;
+}
+
+.recent h4 {
+    font-size: 30px;
+    padding-top: 4rem;
+}
+
+.pic2 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.pic2 h4 {
+    font-size: 16px;
+}
+
+.praic-T {
+    text-align: center;
+    background-color:
+        #FFFFFF;
+    font-size: 14px;
+}
+
+
+.blog5 {
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+    height: 80vh;
+}
+
+.blog5 h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.pic3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    padding-top: 3rem;
+
+}
+
+.pic3 a {
+    padding: 2px 3px;
+    background-color: #F5F5F5;
+
+}
+
+  
+.blog6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #F5F5F5;
+    height: 100vh;
+    margin: 0;  
+    padding: 0 50PX ;
+
+
+}
+.pic4{
+    text-align: center  ;
+    position: absolute;
+    padding-bottom:20rem ;
+    padding-left: 115px;
+}
+
+.blog6 h1{
+    padding: 0 180px;
+}
+.miloshka{
+    
+    margin: 0;
+    background-image: url(../img/FON.png);
+    height: 517px;
+
+}
+.get {
+    padding-top: 79px;
+    text-align: center;
+    display: flex;
+justify-content: center;
+text-align: center;
+
+}
+.blog7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8rem;
+    padding-top:5rem;
+   
+}
+.blog8{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.blog9{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.blog10{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     flex-direction: column;
+ }
+ .blog11{
+     height: 700px;
+     background-color:  #000000;
+
+ }
+ .input{
+    padding-top: 100px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    color: #E5E5E5;
+ }
+ .input input{
+     background-color: #47474F;
+     padding: 20px 64px;
+     padding-top: 40px;
+     padding-right: 500px;
+     color: #F5F5F5;
+ }
+
+ .btn2{
+     display: flex;
+     justify-content: center;
+     align-items:center ;
+     padding-top: 40px; 
+
+ }
+ .btn2 button{
+     border: 1px solid  #7EC4BD;
+     padding: 14px 60px;
+     background: transparent;
+     color: #7EC4BD;
+     border-radius: 8px;
+    
+ }
+ .icon{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    padding-top: 3rem; 
+    flex-direction: column;  
+ }
+ .icon p{
+     color: white;
+ }
+ 
+ @media (min-width: 240px ) and (max-width: 540px) {
+  .menu ul{
+      display: block;
+  }  
+  .menu{
+      display: block;
+      width: 540px;
+     
+  } 
+  .pic{
+      display: block;
+  }
+  .blog1{
+      width: 540px;
+  }
+  .text h1{
+      font-size: 18px;
+  }
+  .text p {
+      font-size: 10px;
+  }
+  .blog2{
+      width: 540px;
+
+  }
+  .text1{
+      padding: 0;
+      font-size: 10px;
+
+      }
+      .blog3{
+          width: 540px;
+          display: block;
+          height: 3800px;
+      }
+    .pic1{
+        display: block;
+    }
+    .blog4{
+        width: 540px;
+        display: block;
+    }
+    .pic2{
+        display: block;
+
+    }
+    .blog5{
+        display: block;
+        width: 540px;
+        height: 1500px;
+    }
+    .pic3{
+        display: block;
+    }
+    .blog6{
+        display: block;
+        width: 540px;
+        height: 900px;
+    }
+    .pic4{
+        display: block;
+        padding-left: 210px;
+
+    }
+    .great{
+        display: block;
+        padding-top: 80px;
+
+    }
+    .great h1{
+        padding: 0 ;
+    }
+    .miloshka{
+        width: 540px;
+        height: 1000px;
+        display: block;
+    }
+    .blog7{
+        display: block;
+    }
+    .blog11{
+        display: block;
+        width: 540px;
+        height: 700px;
+    }
+    .input input {
+       
+        width: 180px;
+        margin-left: 200px;
+    }
+    .input{
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .icon{
+        display: block;
+        text-align: center;
+    }
+    .btn2 button {
+        display: flex;
+        justify-content: center;
+        margin-left: 400px;
+    }
+ }
+ @media (min-width: 540px ) and (max-width: 800px) {
+    .menu ul{
+        display:flex ;
+    }  
+    .menu{
+        display: block;
+        width: 800px;
+       
+    } 
+    .pic{
+        display: block;
+    }
+    .blog1{
+        width: 800px;
+    }
+    .text h1{
+        font-size: 28px;
+    }
+    .text p {
+        font-size: 16px;
+    }
+    .blog2{
+        width: 800px;
+  
+    }
+    .text1{
+        padding: 0;
+        font-size: 10px;
+  
+        }
+        .blog3{
+            width: 800px;
+            display: block;
+            height: 1100px;
+        }
+      .pic1{
+          display: block;
+      }
+      .blog4{
+          width: 800px;
+          display: block;
+      }
+      .pic2{
+          display: block;
+  
+      }
+      .blog5{
+          display: block;
+          width: 800px;
+          height: 1500px;
+      }
+      .pic3{
+          display: block;
+      }
+      .blog6{
+          display: block;
+          width: 800px;
+          height: 900px;
+      }
+      .pic4{
+          display: block;
+          padding-left: 350px;
+  
+      }
+      .great{
+          display: block;
+          padding-top: 80px;
+  
+      }
+      .great h1{
+          padding: 0 ;
+      }
+      .miloshka{
+          width: 800px;
+          height: 1000px;
+          display: block;
+      }
+      .blog7{
+          display: block;
+      }
+      .blog11{
+          display: block;
+          width: 800px;
+          height: 700px;
+      }
+      .input input {
+         
+          width: 180px;
+          margin-left: 700px;
+      }
+      .input{
+          width: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+      }
+      .icon{
+          display: block;
+          text-align: center;
+      }
+      .btn2 button {
+          display: flex;
+          justify-content: center;
+          margin-left: 660px;
+      }
+   }
+
+
+   @media (min-width: 800px ) and (max-width: 1200px) {
+    .menu ul{
+        display:flex ;
+    
+    }  
+    .menu{
+        display: block;
+        width: 1200px;
+       
+    } 
+    .pic{
+        display: flex;
+    }
+    .blog1{
+        width: 1200px;
+        height: 500px;
+    }
+    .text h1{
+        font-size: 50px;
+    }
+    .text p {
+        font-size: 18px;
+    }
+    .blog2{
+        width: 1200px;
+        height: 300px;
+  
+    }
+    .text1{
+        padding: 0 120px;
+        font-size: 18px;
+        
+  
+        }
+        .blog3{
+            width: 1200px;
+            display: block;
+            height: 500px;
+        }
+        .pic1 p{
+            padding: 0;
+        }
+
+      .pic1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .blog4{
+          width: 1200px;
+         
+      }
+      .pic2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+  
+      
+      .blog5{
+         
+          width: 1200px;
+          height: 500px;
+      }
+      
+      .blog6{
+          display: flex;
+          width: 1200px;
+          height: 600px;
+      }
+      .pic4{
+          display: flex;
+          padding-left: 95px;
+  
+      }
+      .great{
+          display: flex;
+          padding-top: 80px;
+  
+      }
+      .great h1{
+          padding: 0  120px;
+      }
+      .miloshka{
+          width: 1200px;
+          height: 600px;
+     
+      }
+    
+      .blog7{
+          display: flex;
+      }
+      .blog11{
+    
+          width: 1200px;
+          height: 900px;
+      }
+      .input input {
+          width: 180px;
+          margin-left: 1150px;
+      }
+      .input{
+          width: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+      }
+      .icon{
+          text-align: center;
+          padding-top: 60px;
+      }
+      .btn2 button {
+          display: flex;
+          justify-content: center;
+          margin-left: 1100px;
+      }
+   }
+  
